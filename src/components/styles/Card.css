@@ -1,0 +1,38 @@
+.card {
+  width: 15rem;
+  height: 20rem;
+  box-shadow: 0 0.25rem 0.25rem grey;
+  display: inline-block;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+.active {
+  border: 0.25rem solid rgb(0, 145, 255);
+}
+
+.card .img {
+  width: 100%;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.card .info {
+  padding: 1rem;
+  box-sizing: border-box;
+  font-size: 0.5rem;
+}
+
+.card .info .text {
+  height: 8rem;
+  overflow: scroll;
+  margin-bottom: 0.5rem;
+}
+
+.card .info .text .desc {
+  color: grey;
+}
+
+.card .info .buttonContainer {
+  display: flex;
+  justify-content: center;
+}

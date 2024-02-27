@@ -1,0 +1,22 @@
+.banner {
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../assets/ford-ranger-banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  padding: 5rem;
+  box-sizing: border-box;
+  color: white;
+}
+
+.banner .center {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.banner .submitButton {
+  width: 10rem;
+  display: block;
+}
